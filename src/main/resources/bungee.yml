@@ -1,0 +1,4 @@
+name: MaximumPlayerLogger
+main: net.testusuke.bungee.maximumplayerlogger.Main
+version: 1.0.0
+author: testusuke
