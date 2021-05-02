@@ -16,6 +16,11 @@ repositories {
 dependencies {
     compileOnly 'io.github.waterfallmc:waterfall-api:1.16-R0.4-SNAPSHOT'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+    //  Exposed(Kotlin SQL Framework)
+    compile("org.jetbrains.exposed:exposed-core:0.31.1")
+    compile("org.jetbrains.exposed:exposed-dao:0.31.1")
+    compile("org.jetbrains.exposed:exposed-jdbc:0.31.1")
 }
 
 compileKotlin {
